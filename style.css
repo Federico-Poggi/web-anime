@@ -1,0 +1,160 @@
+body, html{
+    height: 100%;
+    display: flex;
+    width: 100%;
+}
+
+#logo{
+    width: 5vw;
+    margin: 0 auto;
+    margin-top: 3em;
+    
+}
+
+nav{
+    background-color: rgb(39, 39, 39) ;
+    width: 5.5%;
+    position: fixed;
+    left: 0;
+}
+
+#contain{
+    justify-items: center;
+}
+
+nav .btn{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: 0.8vw;
+    font-family: 'Sedgwick Ave Display', cursive;
+    padding-left: 0;
+    align-self: flex-start;
+}
+
+.btn-container{
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+
+
+nav button{
+    margin-bottom: 2em;
+}
+    
+
+nav .btn:hover{
+    color: rgb(115, 17, 140);
+    font-size: 1.5em;
+    transition: all 0.4s;
+    /* box-shadow: 0px 0px 77px 19px magenta; */
+    
+}
+
+/* MAIN */
+
+main{
+    background-color: rgb(29, 29, 40);
+    margin-left: 5%;
+}
+
+#search{
+    color: black;
+    background: transparent;
+    border: 2px solid rgb(76, 73, 73);
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 2.5em;
+}
+
+#search-button{
+    height: 2.6em;
+    border: 2px solid rgb(76, 73, 73);
+    border-left: 0;
+}
+
+#search-button img{
+    height: 0.8em;
+    padding: 0;
+}
+
+.search-input{
+    right: 1em;
+    margin-top: 1em;
+}
+
+#title-most{
+    color: rgb(107, 10, 156);
+    font-size: 1.5em;
+}
+
+.title{
+    color: rgb(141, 30, 108);
+    font-family: 'Rowdies', cursive;
+    font-weight: 700;
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+}
+
+
+#tumb-container{
+    width: 95%;
+    margin-top: 7em;
+    margin-left: 2em;
+}
+
+
+.thumbnail{
+    background-color: transparent;
+    border: none;
+    margin: 1em 2em;
+}
+
+.title span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.float {
+    position: relative;
+    left: 117px;
+}
+
+.dropdown{
+    margin-left:2em;
+    
+}
+
+#btn{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    border: none;
+    border: 2px solid rgb(76, 73, 73);
+    border-left: none ;
+    padding:0.2em;
+    background-color: transparent;
+    color: white;
+}
+
+.dropdown-menu{
+    transition: all 0.2s;
+}
+
+#img{
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 1px solid rgb(0, 0, 0);
+    border: 2px solid rgb(76, 73, 73);
+    background-color: transparent;
+    color: white;
+}
+
+

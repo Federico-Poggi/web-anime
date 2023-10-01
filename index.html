@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="Anime" content="Anime di tutti i tipi" />
+    <title>AnimeWoW</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="h-100 d-flex flex-column">
+      <img id="logo" src="assets/img/GoAn.png" alt="logo" />
+      <div
+        class="container-fluid d-flex flex-lg-wrap btn-container"
+        id="contain"
+      >
+        <!-- <ul class="p-0 align-items-center"> -->
+        <div class="container-sm d-flex flex-column">
+          <button class="btn btn-sm">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="2vw"
+              height="2vw"
+              fill="white"
+              class="bi bi-house-door"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146ZM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5Z"
+              />
+            </svg>
+            <p>Home</p>
+          </button>
+          <button class="btn btn-sm">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="2vw"
+              height="2vw"
+              fill="currentColor"
+              class="bi bi-archive"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 12.5V5a1 1 0 0 1-1-1V2zm2 3v7.5A1.5 1.5 0 0 0 3.5 14h9a1.5 1.5 0 0 0 1.5-1.5V5H2zm13-3H1v2h14V2zM5 7.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"
+              />
+            </svg>
+            <p>Archivio</p>
+          </button>
+          <button class="btn btn-sm">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="2vw"
+              height="2vw"
+              fill="currentColor"
+              class="bi bi-heart"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+              />
+            </svg>
+            <p>Favourite</p>
+          </button>
+          <button class="btn btn-sm">
+            <svg
+              width="3vw"
+              height="3vw"
+              viewBox="0 0 48 48"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>new-rectangle</title>
+              <g id="Layer_2" data-name="Layer 2">
+                <g id="invisible_box" data-name="invisible box">
+                  <rect width="148" height="48" fill="none" />
+                </g>
+                <g id="icons_Q2" data-name="icons Q2">
+                  <path
+                    d="M44,14H4a2,2,0,0,0-2,2V32a2,2,0,0,0,2,2H44a2,2,0,0,0,2-2V16A2,2,0,0,0,44,14ZM17.3,29H14.8l-3-5-.7-1.3h0V29H8.7V19h2.5l3,5,.6,1.3h.1s-.1-1.2-.1-1.6V19h2.5Zm9.1,0H18.7V19h7.6v2H21.2v1.8h4.4v2H21.2v2.1h5.2Zm10.9,0H34.8l-1-4.8c-.2-.8-.4-1.9-.4-1.9h0s-.2,1.1-.3,1.9L32,29H29.6L26.8,19h2.5l1,4.2a20.1,20.1,0,0,1,.5,2.5h0l.5-2.4,1-4.3h2.3l.9,4.3.5,2.4h0l.5-2.5,1-4.2H40Z"
+                  />
+                </g>
+              </g>
+            </svg>
+            <p>News</p>
+          </button>
+        </div>
+
+        <!-- </ul> -->
+      </div>
+      <div class="container-sm w-100">
+        <button type="button" class="btn btn-sm m-0">Login</button>
+        <button type="button" class="btn btn-sm m-0">Sign In</button>
+      </div>
+    </nav>
+
+    <main class="p-0">
+      <div class="position-fixed search-input">
+        <div class="input-group">
+          <div class="form-outline">
+            <input
+              id="search"
+              type="search"
+              id="form1"
+              class="form-control btn-success"
+            />
+          </div>
+          <button id="search-button" type="button" class="btn">
+            <img src="assets/img/search.svg" alt="search" />
+          </button>
+        </div>
+      </div>
+      <div id="tumb-container" class="container-fluid p-0">
+        <div class="d-flex">
+          <h2 class="card-title m-0" id="title-most">
+            The Top and Most watched
+          </h2>
+          <div class="dropdown d-flex">
+            <img class="p-1 btn" id="img" src="assets/img/svg.svg" alt="svg" />
+            <button
+              id="btn"
+              class="btn dropdown-toggle d-flex align-items-center"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Filter
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">A-Z</a></li>
+              <li><a class="dropdown-item" href="#">Most viewd</a></li>
+              <li><a class="dropdown-item" href="#">Most Liked</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center flex-wrap m-1">
+          <div class="thumbnail">
+            <div class="card-img-top">
+              <img src="assets/img/tumbnail.jpg" alt="" />
+            </div>
+            <div class="card-text title d-flex align-items-center">
+              One Piece <span>- 900 Episodi</span>
+              <img class="float" src="assets/img/plus.svg" alt="plus" />
+            </div>
+          </div>
+          <div class="thumbnail">
+            <div class="card-img-top">
+              <img src="assets/img/tumbnail.jpg" alt="" />
+            </div>
+            <div class="card-text title">
+              One Piece <span>- 900 Episodi</span>
+              <img class="float" src="assets/img/plus.svg" alt="plus" />
+            </div>
+          </div>
+          <div class="thumbnail">
+            <div class="card-img-top">
+              <img src="assets/img/tumbnail.jpg" alt="" />
+            </div>
+            <div class="card-text title">
+              One Piece <span>- 900 Episodi</span>
+              <img class="float" src="assets/img/plus.svg" alt="plus" />
+            </div>
+          </div>
+          <div class="thumbnail">
+            <div class="card-img-top">
+              <img src="assets/img/tumbnail.jpg" alt="" />
+            </div>
+            <div class="card-text title">
+              One Piece <span>- 900 Episodi</span>
+              <img class="float" src="assets/img/plus.svg" alt="plus" />
+            </div>
+          </div>
+          <div class="thumbnail">
+            <div class="card-img-top">
+              <img src="assets/img/tumbnail.jpg" alt="" />
+            </div>
+            <div class="card-text title">
+              One Piece <span>- 900 Episodi</span>
+              <img class="float" src="assets/img/plus.svg" alt="plus" />
+            </div>
+          </div>
+          <div class="thumbnail">
+            <div class="card-img-top">
+              <img src="assets/img/tumbnail.jpg" alt="" />
+            </div>
+            <div class="card-text title">
+              One Piece <span>- 900 Episodi</span>
+              <img class="float" src="assets/img/plus.svg" alt="plus" />
+            </div>
+          </div>
+          <div class="thumbnail">
+            <div class="card-img-top">
+              <img src="assets/img/tumbnail.jpg" alt="" />
+            </div>
+            <div class="card-text title">
+              One Piece <span>- 900 Episodi</span>
+              <img class="float" src="assets/img/plus.svg" alt="plus" />
+            </div>
+          </div>
+          <div class="thumbnail">
+            <div class="card-img-top">
+              <img src="assets/img/tumbnail.jpg" alt="" />
+            </div>
+            <div class="card-text title">
+              One Piece <span>- 900 Episodi</span>
+              <img class="float" src="assets/img/plus.svg" alt="plus" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
